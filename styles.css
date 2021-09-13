@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 
 /* Header here */
@@ -18,10 +18,15 @@ header{
     padding: 15px 10px;
 }
 
+.nav-bar{
+    background-color: #000;
+}
+
 .nav-links a{
     color: white;
     padding: 0 20px;
     text-decoration: none;
+    background-color: black;
 }
 
 .nav-bar .closebtn{
@@ -131,12 +136,12 @@ input.msg{
         width: 100%;
         height: calc(100vh - 50px);
         top: 50px;
-        left: -100%;
+        left: 0;
         transition: 0.8s
     }
 
     header nav.active{
-        left: 0;
+        left: -100%;
     }
 
     header nav .nav-links a {
